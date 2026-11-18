@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library Management</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #101d3b;
+            color: white;
+            font-family: Arial;
+        }
+
+        .navbar {
+            background-color: #07142e;
+        }
+
+        .section-box {
+            background-color: #17294f;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .book-card {
+            background-color: white;
+            color: black;
+            border-radius: 12px;
+            padding: 12px;
+            height: 100%;
+        }
+
+        .book-cover {
+            background-color: #75645f;
+            height: 145px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .btn-library {
+            background-color: #ff786f;
+            color: white;
+        }
+
+        .category-link {
+            display: inline-block;
+            background-color: white;
+            color: black;
+            padding: 7px 14px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 4px;
+        }
+
+        footer {
+            background-color: #07142e;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand text-white" href="#home">
+                Online Library
+            </a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link text-white" href="#home">Home</a>
+                <a class="nav-link text-white" href="#categories">Categories</a>
+                <a class="nav-link text-white" href="#history">My History</a>
+                <a class="nav-link text-white" href="#profile">Profile</a>
+                <a class="nav-link text-white" href="#login">Sign In</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container py-4">
+
+        
+        <section id="login" class="section-box">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <h1>Online Library Management</h1>
+                    <p>Read and explore your favourite books.</p>
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="bg-light text-dark rounded p-4">
+
+                        <h3>Member Sign In</h3>
+
+                        <form>
+
+                            <label class="form-label">Member ID</label>
+                            <input type="text" class="form-control"
+                                   placeholder="Enter Member ID">
+
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control"
+                                   placeholder="Enter Password">
+
+                            <button type="button" class="btn btn-library w-100">
+                                Sign In
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
